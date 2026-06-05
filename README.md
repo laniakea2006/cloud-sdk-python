@@ -24,6 +24,7 @@ The Python SDK offers a clean, type-safe API following Python best practices whi
 - **Secret Resolver**
 - **Telemetry & Observability**
 - **Data Anonymization Service**
+- **Print Service**
 
 ## Requirements and Setup
 
