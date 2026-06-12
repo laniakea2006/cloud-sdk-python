@@ -56,6 +56,7 @@ class TestModule:
         """Test that all expected modules are present."""
         all_modules = list(Module)
         assert len(all_modules) == 12
+        assert Module.ADMS in all_modules
         assert Module.AICORE in all_modules
         assert Module.AUDITLOG in all_modules
         assert Module.AUDITLOG_NG in all_modules
